@@ -68,7 +68,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:https://cdn.jsdelivr.net/gh/a52948/images/Qexo/2023/8/微信图片_20230813162137_bdb9049cb1de0b7a0884e7ee9911851d.jpg
+avatar: https://cdn.jsdelivr.net/gh/a52948/images/Qexo/2023/8/微信图片_20230813162137_bdb9049cb1de0b7a0884e7ee9911851d.jpg
 
 #是否开启分享
 share_jia: true
