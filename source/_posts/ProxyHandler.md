@@ -4,7 +4,7 @@ categories: []
 date: '2023-09-27T20:11:02.333786+08:00'
 tags: []
 title: ProxyHandler
-updated: 2023-9-27T20:11:3.459+8:0
+updated: 2023-9-27T20:11:39.981+8:0
 ---
 ```
 import urllib.request
