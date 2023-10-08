@@ -4,7 +4,7 @@ categories: []
 date: '2023-10-08T21:07:32.277815+08:00'
 tags: []
 title: cookjar
-updated: 2023-10-8T21:7:34.163+8:0
+updated: 2023-10-8T21:8:15.406+8:0
 ---
 ```
 import urllib.request
@@ -57,4 +57,18 @@ formdate = urllib.parse.urlencode(formdate).encode()
 response = opener.open(request,data=formdate)
 
 print(response.read().decode())
+```
+
+正规表达式测试学习
+
+```
+import re
+
+string = '<p><div><span>test</span></div></p>'
+
+patter = re.compile(r'<(\w+)><(\w+)>\w+</\2></\1>')
+
+ret = patter.search(string)
+
+print(ret)
 ```
