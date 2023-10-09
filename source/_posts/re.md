@@ -4,7 +4,7 @@ categories: []
 date: '2023-10-09T21:36:37.997701+08:00'
 tags: []
 title: re
-updated: 2023-10-9T21:36:39.784+8:0
+updated: 2023-10-9T21:37:4.530+8:0
 ---
 ```
 import re
@@ -30,4 +30,10 @@ patter = re.compile(r'^ha.*', re.S)
 ret = patter.findall(string)
 print(ret)
 
+```
+
+```
+patter = re.compile(r'<div>(.*)</div>', re.S)
+ret = patter.findall(string)
+print(ret)
 ```
